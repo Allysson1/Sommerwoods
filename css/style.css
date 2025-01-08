@@ -1,0 +1,26 @@
+.hero-section {
+    background-image: url('/images/background-topo.jpeg'); /* Substitua pela URL da imagem correta */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    background: rgba(255, 255, 255, 0.6); /* Aumentada a transparência */
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    height: 200px; /* Altura maior */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: auto;
+}
