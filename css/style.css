@@ -1,5 +1,5 @@
 .hero-section {
-    background-image: url('/images/background-topo.jpeg'); /* Substitua pela URL da imagem correta */
+    background-image: url('../images/bacround_topo.png'); /* Substitua pela URL da imagem correta */
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -25,13 +25,6 @@
     height: auto;
 }
 
-.responsive-text h1 {
-    font-size: 2.5rem; /* Default for small screens */
-}
-
-.responsive-text p {
-    font-size: 1rem; /* Default for small screens */
-}
 
 img {
     max-width: 100%;
