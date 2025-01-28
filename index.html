@@ -65,63 +65,41 @@
         </div>
     </aside>
 
-    <section class="container py-5">
-        <h1 class="text-center mb-5">Produtos</h1>
-        <div id="productCarousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-12 col-md-6 col-lg-4 col-xl-2">
-                            <div class="card">
-                                <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="Produto 1">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Produto 1</h5>
-                                    <p class="card-text">Breve descrição do produto 1.</p>
-                                    <a href="#" class="btn btn-primary">Ver Produto</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-12 col-md-6 col-lg-4 col-xl-2">
-                            <div class="card">
-                                <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="Produto 2">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Produto 2</h5>
-                                    <p class="card-text">Breve descrição do produto 2.</p>
-                                    <a href="#" class="btn btn-primary">Ver Produto</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-12 col-md-6 col-lg-4 col-xl-2">
-                            <div class="card">
-                                <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="Produto 3">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Produto 3</h5>
-                                    <p class="card-text">Breve descrição do produto 3.</p>
-                                    <a href="#" class="btn btn-primary">Ver Produto</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section class="carousel">
+        <div class="carousel-track">
+            <div class="carousel-card">
+                <img src="images/mesa.preta.jpg" alt="Mesa com seis lugares">
+                <h5>Mesa com seis lugares</h5>
+                <p>Esta mesa combina elegância e simplicidade, com um tampo preto sofisticado e pés de madeira clara.</p>
+                <a href="https://wa.me/5511972307530?text=Oi,%20podemos%20Conversar?%20Fiquei%20interessado(a)%20em%20um%20de%20seus%20produtos" target="_blank">Consulte-nos</a>
             </div>
-            <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
+            <div class="carousel-card">
+                <img src="images/mesa_madeira_quadrada.jpg" alt="Mesa quadrada com quatro cadeiras">
+                <h5>Mesa quadrada com quatro cadeiras</h5>
+                <p>Design moderno e minimalista, com um tampo quadrado em tom natural que destaca a textura da madeira.</p>
+                <a href="https://wa.me/5511972307530?text=Oi,%20podemos%20Conversar?%20Fiquei%20interessado(a)%20em%20um%20de%20seus%20produtos" target="_blank">Consulte-nos</a>
+            </div>
+            <div class="carousel-card">
+                <img src="images/variação_mesa_madeira.jpg" alt="Mesa redonda com quatro cadeiras">
+                <h5>Variações para todos os gostos</h5>
+                <p>Elegância e funcionalidade. Ideal para reuniões, cafés ou espaços de atendimento sofisticados.</p>
+                <a href="https://wa.me/5511972307530?text=Oi,%20podemos%20Conversar?%20Fiquei%20interessado(a)%20em%20um%20de%20seus%20produtos" target="_blank">Consulte-nos</a>
+            </div>
+            <div class="carousel-card">
+                <img src="images/mesa_negocio.jpg" alt="Conjunto para negócios">
+                <h5>Conjunto para negócios</h5>
+                <p>Elegância e funcionalidade. Ideal para reuniões, cafés ou espaços de atendimento sofisticados.</p>
+                <a href="https://wa.me/5511972307530?text=Oi,%20podemos%20Conversar?%20Fiquei%20interessado(a)%20em%20um%20de%20seus%20produtos" target="_blank">Consulte-nos</a>
+            </div>
+        </div>
+    
+        <div class="carousel-buttons">
+            <button id="prevButton">&#10094;</button>
+            <button id="nextButton">&#10095;</button>
         </div>
     </section>
+    
+ 
 
     <section class="container py-5">
         <div class="row align-items-center">
@@ -221,5 +199,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/carrossel.js"></script>
 </body>
 </html>
