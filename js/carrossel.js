@@ -25,3 +25,30 @@ prevButton.addEventListener('click', () => {
 });
 
 window.addEventListener('resize', updateCarousel);
+
+
+// --------------------------------------------------------------
+document.getElementById('nextButton2').addEventListener('click', function() {
+    moveCarousel(1);
+});
+
+document.getElementById('prevButton2').addEventListener('click', function() {
+    moveCarousel(-1);
+});
+
+let currentIndex2 = 0;
+
+function moveCarousel(direction) {
+    const carouselTrack = document.querySelector('.carousel-track');
+    const totalItems = document.querySelectorAll('.carousel-card').length;
+    currentIndex2 += direction;
+
+    if (currentIndex2 < 0) {
+        currentIndex2 = totalItems - 1;  // Volta para o último item
+    } else if (currentIndex >= totalItems) {
+        currentIndex2 = 0;  // Vai para o primeiro item
+    }
+
+    const offset = -currentIndex2 * 100;  // Calcula o deslocamento baseado no índice
+    carouselTrack.style.transform = `translateX(${offset}%)`;
+}

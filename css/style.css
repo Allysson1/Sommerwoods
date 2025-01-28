@@ -1,3 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
 .hero-section {
     background-image: url('../images/bacround_topo.png'); /* Substitua pela URL da imagem correta */
     background-size: cover;
@@ -57,13 +66,6 @@ img {
     }
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .carousel {
     overflow: hidden;
     position: relative;
@@ -84,7 +86,7 @@ body {
 }
 
 .carousel-card img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 5px;
 }
@@ -102,15 +104,14 @@ body {
     display: inline-block;
     margin-top: 0.5rem;
     padding: 0.5rem 1rem;
-    color: #fff;
-    background-color: #007bff;
+    color: black;
+    background-color: yellow;
     text-decoration: none;
+    border: 0.5px solid black;
     border-radius: 5px;
+    
 }
 
-.carousel-card a:hover {
-    background-color: #0056b3;
-}
 
 .carousel-buttons {
     position: absolute;
@@ -147,4 +148,14 @@ body {
         flex: 0 0 25%; /* Ocupa 25% em telas grandes */
         max-width: 25%;
     }
+}
+
+.btn{
+    background-color: yellow;
+    border: 0.5px solid black;
+    color:black;
+}
+
+.imgFooter{
+    width: 100px;
 }
