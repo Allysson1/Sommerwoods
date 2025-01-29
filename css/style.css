@@ -1,3 +1,5 @@
+/* geral */
+
 html{
     scroll-behavior: smooth;
 }
@@ -6,6 +8,13 @@ footer{
     background-color: black;
     color: white;
 }
+
+.icon{
+    color: yellow;
+
+}
+
+/* topo do site com imagem */
 
 .hero-section {
     background-image: url('../images/bacround_topo.png'); /* Substitua pela URL da imagem correta */
@@ -158,4 +167,75 @@ img {
 
 .imgFooter{
     width: 100px;
+}
+
+/* Estilo do Carrossel de Avaliações */
+.carousel-reviews {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-track-reviews {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-card-reviews {
+   flex: 0 0 100%; /* Por padrão, ocupa 100% */
+    max-width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.carousel-card-reviews p {
+    font-size: 1rem;
+    color: #333;
+    font-style: italic;
+}
+
+.carousel-card-reviews h5 {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Botões de navegação */
+.carousel-buttons-reviews {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-buttons-reviews button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carousel-buttons-reviews button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsividade */
+@media (min-width: 768px) {
+    .carousel-card-reviews {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel-card-reviews {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
 }
