@@ -17,7 +17,7 @@ footer{
 /* topo do site com imagem */
 
 .hero-section {
-    background-image: url('../images/bacround_topo.png'); /* Substitua pela URL da imagem correta */
+    background-image: url('/images/imagem_de_topo.webp'); /* Substitua pela URL da imagem correta */
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -114,9 +114,8 @@ img {
     margin-top: 0.5rem;
     padding: 0.5rem 1rem;
     color: black;
-    background-color: yellow;
+    background-color: #f1b571;
     text-decoration: none;
-    border: 0.5px solid black;
     border-radius: 5px;
     
 }
@@ -160,8 +159,7 @@ img {
 }
 
 .btn{
-    background-color: yellow;
-    border: 0.5px solid black;
+    background-color: #f1b571;
     color:black;
 }
 
