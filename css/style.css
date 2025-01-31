@@ -17,7 +17,7 @@ footer{
 /* topo do site com imagem */
 
 .hero-section {
-    background-image: url('/images/imagem_de_topo.webp'); /* Substitua pela URL da imagem correta */
+    background-image: url('../images/imagem_de_topo.webp'); /* Substitua pela URL da imagem correta */
     background-size: cover;
     background-position: center;
     height: 50vh;
