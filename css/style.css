@@ -49,6 +49,10 @@ img {
     height: auto;
 }
 
+.img_planejados{
+    border-bottom-left-radius: 100px;
+}
+
 .row {
     text-align: center;
 }
@@ -114,7 +118,7 @@ img {
     margin-top: 0.5rem;
     padding: 0.5rem 1rem;
     color: black;
-    background-color: #f1b571;
+    background-color: #f5da43;
     text-decoration: none;
     border-radius: 5px;
     
@@ -159,8 +163,13 @@ img {
 }
 
 .btn{
-    background-color: #f1b571;
+    background-color: #f5da43;
     color:black;
+}
+
+.btn_up_footer{
+    background-color: yellow;
+
 }
 
 .imgFooter{
@@ -197,7 +206,6 @@ img {
     margin-top: 10px;
     font-size: 1rem;
     font-weight: bold;
-    color: #007bff;
 }
 
 /* Botões de navegação */
